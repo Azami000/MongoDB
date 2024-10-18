@@ -9,7 +9,7 @@ const port = process.env.PORT;
 app.use(express.json());
 
 app.get("/", async (req, res) => {
-  res.status(200).send({ message: "Hello" });
+  res.status(200).send({ message: "Hi" });
 });
 
 app.listen(port, () => console.log(`http://localhost:${port}/`));
